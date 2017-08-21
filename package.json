@@ -1,6 +1,6 @@
 {
   "name": "texting",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add additional styles to a block of text",
   "main": "index.js",
   "scripts": {
@@ -17,9 +17,12 @@
     "comment",
     "list",
     "jsdoc",
-    "string"
+    "string",
+    "style",
+    "surround",
+    "engulf"
   ],
-  "author": "Yasha Gooykin (https://github.com/yashag)",
+  "author": "Yasha Gootkin (https://github.com/yashag)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yashag/texting/issues"
