@@ -1,6 +1,7 @@
 v1.0.2
 ===============
 
+* Upgraded version (patch)
 * Updated the keywords in the **package.json** file
 * Updated the **README.md** file and added small touches like version specification, options description, etc.
 * Started using the ___constring___ package and switched all strings
@@ -10,6 +11,7 @@ v1.0.2
 v1.0.1
 ---------------
 
+* Upgraded version (patch)
 * Minor **package.json** improvements and fixes
 
 v1.0.0
