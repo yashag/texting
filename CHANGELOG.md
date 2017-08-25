@@ -1,7 +1,8 @@
 v1.0.2
 ===============
 
-* Started using the **constring** package and switched all strings
+* Updated the **README.md** file and added small touches like version specification, options description, etc.
+* Started using the ___constring___ package and switched all strings
 * Removed the **package-lock.json** file
 * Created a **CHANGELOG.md** file
 

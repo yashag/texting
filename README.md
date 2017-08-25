@@ -1,8 +1,11 @@
 # texting
+[![NPM](https://nodei.co/npm/texting.png?downloads=true&downloadRank=true)](https://nodei.co/npm/texting/)
 > Add additional styles to a block of text
 
+Texting allows you to join multiple lines of text and style them any way you like. You may add strings or characters in any part of you text and generate unique outputs for different usages. Examples of common usages: _comments_, _lists_, etc.
+
 ## Install
-Install with [npm](https://www.npmjs.com/):
+Install with [npm](https://www.npmjs.com/package/texting):
 
 ```sh
 $ npm install --save texting
@@ -20,12 +23,15 @@ texting(text, options);
 ### texting(text, [opts])
 ##### Params:
 * **text**: `Array.<string>` - An array of text lines
-* **opts**: `Object` - optional - An options object
-    * **blockStart**: `string` - A string to be inserted before the inputed text
-    * **blockEnd**: `string` - A string to be inserted after the inputed text
-    * **lineStart**: `string` - A string to be inserted before each inputed text line
-    * **lineEnd**: `string` - A string to be inserted after each inputed text line
-    * **seperator**: `string` -A string to be inserted as a seperator between text line
+* **opts**: `Object` - _optional_ - An options object
+
+| Option | type | Description | Default |
+| ------ | ---- | ----------- | ------- |
+| **blockStart** | `string` | A string to be inserted before the inputed text | `""` |
+| **blockEnd** | `string` | A string to be inserted after the inputed text | `""` |
+| **lineStart** | `string` | A string to be inserted before each inputed text line | `""` |
+| **lineEnd** | `string` | A string to be inserted after each inputed text line | `""` |
+| **seperator** | `string` | A string to be inserted as a seperator between text line | `""` |
 
 ##### Returns: 
 `string` - A formatted text output after joining the text lines and the requested options
@@ -57,7 +63,7 @@ The result (a string) is going to be:
 texting.comments(["first comment", "second comment"]);
 ```
 The result (a string) is going to be:
-```
+```js
 // first comment
 // second comment
 ```
@@ -74,7 +80,7 @@ The result (a string) is going to be:
 texting.multiComments(["first comment", "second comment", "third comment"]);
 ```
 The result (a string) is going to be:
-```
+```js
 /*
 first comment
 second comment
@@ -94,7 +100,7 @@ third comment
 texting.jsdocComments(["@ param {string} str", "@ param {number} num", "@ return {string}"]);
 ```
 The result (a string) is going to be:
-```
+```js
 /**
 * @ param {string} str
 * @ param {number} num
