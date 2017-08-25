@@ -1,6 +1,7 @@
 v1.0.2
 ===============
 
+* Started using the **constring** package and switched all strings
 * Removed the **package-lock.json** file
 * Created a **CHANGELOG.md** file
 
