@@ -1,8 +1,13 @@
-v1.0.1
+v1.0.2
 ===============
 
 * Removed the **package-lock.json** file
 * Created a **CHANGELOG.md** file
+
+v1.0.1
+---------------
+
+* Minor **package.json** improvements and fixes
 
 v1.0.0
 ---------------
