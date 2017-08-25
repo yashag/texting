@@ -17,10 +17,12 @@
     "comment",
     "list",
     "jsdoc",
+    "array",
     "string",
     "style",
     "surround",
-    "engulf"
+    "engulf",
+    "join"
   ],
   "author": "Yasha Gootkin (https://github.com/yashag)",
   "license": "MIT",
