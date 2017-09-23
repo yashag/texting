@@ -1,6 +1,6 @@
 {
   "name": "texting",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Add additional styles to a block of text",
   "main": "index.js",
   "scripts": {
