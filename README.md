@@ -102,10 +102,10 @@ texting.jsdocComments(["@ param {string} str", "@ param {number} num", "@ return
 The result (a string) is going to be:
 ```js
 /**
-* @ param {string} str
-* @ param {number} num
-* @ return {string}
-*/
+ * @ param {string} str
+ * @ param {number} num
+ * @ return {string}
+ */
 ```
 
 ## texting.list(listItems)

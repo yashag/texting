@@ -34,13 +34,13 @@ veniam, quis\r
 */`;
 
 const jsdocCommentsExpectation = `/**\r
-* Lorem ipsum dolor sit amet,\r
-* consectetur adipiscing\r
-* elit, sed do eiusmod tempor incididunt\r
-* ut labore et dolore\r
-* magna aliqua. Ut enim ad minim\r
-* veniam, quis\r
-*/`;
+ * Lorem ipsum dolor sit amet,\r
+ * consectetur adipiscing\r
+ * elit, sed do eiusmod tempor incididunt\r
+ * ut labore et dolore\r
+ * magna aliqua. Ut enim ad minim\r
+ * veniam, quis\r
+ */`;
 
 const listExpectation = `- Lorem ipsum dolor sit amet,\r
 - consectetur adipiscing\r

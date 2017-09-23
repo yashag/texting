@@ -1,5 +1,11 @@
-v1.0.2
+v1.0.3
 ===============
+
+* Upgraded version (patch)
+* Fixed the ___jsdocComments___ function spacing issue
+
+v1.0.2
+---------------
 
 * Upgraded version (patch)
 * Updated the keywords in the **package.json** file
